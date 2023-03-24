@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/* All page */
+@media screen and (max-width:986px) {
+    section#forecast {
+        background-color: #4B515D;
+        padding-top: 120px;
+    }
+
+    #card3 {
+        flex-direction: column;
+    }
+}
+
+* {
+    /* font-family: 'Baloo Bhai', cursive; */
+    font-family: 'Varela Round', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Header */
+#nav {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    background-color: #cee5eb;
+    opacity: 0.8;
+}
+
+#brand {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#city {
+    background: url('https://static.vecteezy.com/system/resources/previews/005/439/631/original/magnify-icon-design-element-logo-element-illustration-magnify-symbol-icon-free-vector.jpg') no-repeat left center;
+    background-size: 22px;
+    background-color: white;
+    padding-left: 25px;
+    font-size: 18px;
+}
+
+#submit {
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 0.3s ease-in;
+}
+
+#submit:hover {
+    background-color: rgb(172, 206, 234);
+    box-shadow: 2px 2px;
+}
+
+/* Main Card */
+#maincard {
+    color: #4B515D;
+    opacity: 0.8;
+    border-radius: 35px;
+}
+
+.cityname {
+    color: white;
+    text-align: center;
+}
+
+/* 3 Cards */
+#forecast {
+    background-color: #4B515D;
+    padding-top: 20px;
+}
+
+section#forecast {
+    background: url('https://64.media.tumblr.com/27f69cc943d4ab3011b32ae882bd9dd9/9612f800f582d128-90/s640x960/e37cdc6c5ccebdeb8707653e5877307b1d1fa278.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    box-shadow: 0 0 4px rgb(151, 149, 149);
+}
+
+/* Horizontal Line */
+hr.horizontal-line {
+    border: 1px solid black;
+    width: 96%;
+    margin-bottom: 35px;
+}
+
+/* for table */
+.info {
+    margin: 25px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 4px rgb(151, 149, 149);
+}
+
+/* footer */
+#copy {
+    background-color: #cee5eb;
+    color: black;
+}
+
+#copy a {
+    color: black;
+    text-decoration: none;
+}
